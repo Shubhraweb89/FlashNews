@@ -9,17 +9,20 @@ feedparser
 pandas
 nltk
 python-dateutil
-numpy==1.24.4
+numpy==1.26.0
 
 
 # ML and Transformers
 transformers>=4.30.0
 
-# Use CPU-only PyTorch to save 2+ GB
-https://download.pytorch.org/whl/cpu/torch-2.1.2%2Bcpu-cp310-cp310-linux_x86_64.whl
+
+torch==2.1.2 --index-url https://download.pytorch.org/whl/cpu
 
 # Streamlit and Visualization
-streamlit
 jinja2>=3.0
 protobuf==3.20.0
 Pillow
+streamlit==1.33.0
+markdown-it-py>=2.2.0
+Pygments>=2.13.0
+rich>=10.14.0
